@@ -148,6 +148,7 @@ static Key keys[] = {
 
 	{ MODKEY,              XK_j,                    focusstack,     {.i = +1 } },
 	{ MODKEY,              XK_k,                    focusstack,     {.i = -1 } },
+	{ MODKEY,              XK_space,                focusmaster,    {0} },
 	{ MODKEY,              XK_period,               zoom,           {0} },
 	{ MODKEY,              XK_n,                    inplacerotate,  {.i = -2} },
 	{ MODKEY|ShiftMask,    XK_n,                    inplacerotate,  {.i = -1} },
