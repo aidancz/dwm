@@ -1622,7 +1622,7 @@ void
 runAutostart(void) {
 //	system("cd ~/.dwm; ./autostart_blocking.sh");
 //	system("cd ~/.dwm; ./autostart.sh &");
-	system("cd ~/a_sr/script; ./autostart.sh &");
+	system("cd /home/ai/a_gi/script; ./autostart.sh &");
 }
 
 void

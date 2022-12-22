@@ -85,12 +85,12 @@ static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
 static const char *browsercmd[]  = { "google-chrome-stable", NULL };
 
-static const char *briup[]       = { "/home/aidan/a_sr/script/bri-up.sh",  NULL };
-static const char *bridown[]     = { "/home/aidan/a_sr/script/bri-down.sh",  NULL };
+static const char *briup[]       = { "/home/ai/a_gi/script/bri-up.sh",  NULL };
+static const char *bridown[]     = { "/home/ai/a_gi/script/bri-down.sh",  NULL };
 
-static const char *volup[]       = { "/home/aidan/a_sr/script/vol-up.sh",  NULL };
-static const char *voldown[]     = { "/home/aidan/a_sr/script/vol-down.sh",  NULL };
-static const char *voltoggle[]   = { "/home/aidan/a_sr/script/vol-toggle.sh",  NULL };
+static const char *volup[]       = { "/home/ai/a_gi/script/vol-up.sh",  NULL };
+static const char *voldown[]     = { "/home/ai/a_gi/script/vol-down.sh",  NULL };
+static const char *voltoggle[]   = { "/home/ai/a_gi/script/vol-toggle.sh",  NULL };
 
 #include <X11/XF86keysym.h>
 
